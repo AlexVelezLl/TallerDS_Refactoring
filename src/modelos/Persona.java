@@ -15,9 +15,10 @@ public class Persona {
     private String nombre;
     private String apellido;
     private int edad;
-    private String direccion;
-    private String telefono;
+    private Dirección direccion;
+    private Telefono telefono;
     private List<Paralelo> paralelos;
+    
 
     public String getNombre() {
         return nombre;
@@ -44,19 +45,19 @@ public class Persona {
     }
 
     public String getDireccion() {
-        return direccion;
+        return direccion.getCallePrincipal();
     }
 
     public void setDireccion(String direccion) {
-        this.direccion = direccion;
+        this.direccion = new Dirección(direccion);
     }
 
     public String getTelefono() {
-        return telefono;
+        return telefono.getNumber();
     }
 
     public void setTelefono(String telefono) {
-        this.telefono = telefono;
+        this.telefono = new Telefono(telefono);
     }
 
     public List<Paralelo> getParalelos() {
