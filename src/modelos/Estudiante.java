@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Estudiante extends Persona{
     //Informacion del estudiante
-    public String matricula;
-    public String facultad;
+    private String matricula;
+    private String facultad;
     
     //Getter y setter de Matricula
     public String getMatricula() {
@@ -15,7 +15,6 @@ public class Estudiante extends Persona{
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
-
     
     //Getter y setter de la Facultad
     public String getFacultad() {
