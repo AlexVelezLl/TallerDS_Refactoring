@@ -23,12 +23,7 @@ public class Estudiante extends Persona{
         this.facultad = facultad;
     }
     
-    //Método para imprimir los paralelos que tiene asignados como ayudante
-    public void MostrarParalelos(){
-        for(Paralelo par:paralelos){
-            //Muestra la info general de cada paralelo
-        }
-    }
+   
     
 }
         

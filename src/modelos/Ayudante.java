@@ -9,5 +9,11 @@ public class Ayudante extends Estudiante {
     Ayudante(Estudiante e) {
         paralelos = new ArrayList<>();
     }
+    //Método para imprimir los paralelos que tiene asignados como ayudante
 
+    public void MostrarParalelos() {
+        for (Paralelo par : paralelos) {
+            //Muestra la info general de cada paralelo
+        }
+    }
 }
