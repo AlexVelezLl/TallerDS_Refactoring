@@ -1,7 +1,5 @@
 package modelos;
 
-import java.util.ArrayList;
-
 public class Estudiante extends Persona{
     //Informacion del estudiante
     private String matricula;
@@ -25,11 +23,12 @@ public class Estudiante extends Persona{
         this.facultad = facultad;
     }
     
+    //Método para imprimir los paralelos que tiene asignados como ayudante
+    public void MostrarParalelos(){
+        for(Paralelo par:paralelos){
+            //Muestra la info general de cada paralelo
+        }
+    }
+    
 }
-        
-    
-    
-    
-            
-        
         
