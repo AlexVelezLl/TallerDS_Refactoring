@@ -12,12 +12,12 @@ import java.util.List;
  * @author Alexis
  */
 public class Persona {
-    private String nombre;
-    private String apellido;
-    private int edad;
-    private Dirección direccion;
-    private Telefono telefono;
-    private List<Paralelo> paralelos;
+    protected String nombre;
+    protected String apellido;
+    protected int edad;
+    protected Dirección direccion;
+    protected Telefono telefono;
+    protected List<Paralelo> paralelos;
     
 
     public String getNombre() {
